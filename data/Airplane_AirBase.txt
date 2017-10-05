@@ -6,8 +6,7 @@
         "dest1": "YPR",
         "dest2": "YXS",
         "dest3": "YXC"
-    }
-	
+    }	
 	
 	
 [Airplanes]
