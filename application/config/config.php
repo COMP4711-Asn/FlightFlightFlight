@@ -5,9 +5,12 @@ $config['menu_choices'] = array(
     'menudata' => array(
         array('name' => 'Home', 'link' => '/'),
         array('name' => 'Fleet', 'link' => '/fleet'),
-        array('name' => 'Flight', 'link' => '/flight'),
-		array('name' => 'FleetJson', 'link' => '/fleetjson'),
-		array('name' => 'FlightJson', 'link' => '/flightjson'),
+        array('name' => 'Flight', 'link' => '/flights'),
+		array('name' => 'FleetJson', 'link' => '/info/fleet'),
+		array('name' => 'FlightJson', 'link' => '/info/flights'),
+		array('name' => 'Maintenance(Fleet)', 'link' => '/mtceFleet'),
+		array('name' => 'Maintenance(Flight)', 'link' => '/mtceFlight'),
+		array('name' => 'FlightSearch', 'link' => '/flightsearch')
     )
 );
 /*
@@ -520,3 +523,4 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+$config['composer_autoload'] = TRUE;
